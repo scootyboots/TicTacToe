@@ -1,32 +1,82 @@
+body {
+    background-color: #084a5d
+}
+
 table {
+    font-family: 'Lato', sans-serif;
+    min-width: 580px;
     margin: auto;
-    color: red;
-    font-size: 50px;
+    color: #084a5d;
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
     text-transform: uppercase;
     padding-top: 5vh;
     border-spacing: 0;
 }
 
+.blue {
+    color: #34cfeb;
+}
+
+.red {
+    color:#e941f1;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 20px;
+    color:#021e25;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 15px;
+}
+
+h2 span {
+    color: #084a5d;
+}
+
+h2 span.player1.active {
+    color: #34cfeb;
+}
+
+h2 span.player2.active {
+    color: #e941f1;
+}
+
 table td {
-    padding: 60px;
+
+    padding: 30px;
+    cursor: pointer;
 }
 
 tr td:first-child{
-    border-right: 5px solid black;
+    border-right: 5px solid #021e25;
 }
 
 tr td:nth-child(2){
-    border-right: 5px solid black;
+    border-right: 5px solid #021e25;
 }
 
 table tr:first-child {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #021e25;
 }
 
 table tr:first-child td {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #021e25;
 }
 
 table tr:nth-child(2) td {
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid #021e25;
 }
